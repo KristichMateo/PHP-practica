@@ -27,6 +27,7 @@ switch($prueba){
     default:
         echo "no es ninguno";
 }
+$a = 1;
 while ($a <= 10) {      #Bucle while (Igual que JS)
     echo $a++ . '<br>';
 }
@@ -40,4 +41,16 @@ do {
 for ($i=0; $i <= 10 ; $i++) {  #Bucle for (Igual a JS)
     echo "esto es un for " . $i . ' veces <br>';
 }
+
+function funcion()
+{
+    echo "esto es una funcion";
+}
+funcion()
+class Jugador
+{
+    public $nombre;
+    public $posicion;
+}
+
 ?>   
